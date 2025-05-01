@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px gray;
+    --webkit-box-shadow : 0 8px 6px -6px gray;
+    border-bottom:  solid gray !important;
+}
+
+.nav-link{
+    font-weight: 300 !important;
+}
+
+
+.active{
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-family: 'roboto',sans-serif;
+    letter-spacing: 2px;
+
+}
+.footer {
+    background: linear-gradient(to right, #434343, #000000); /* Gradient background */
+    color: white; /* Text color */
+    padding: 20px; /* Space around content */
+    text-align: center; /* Center-align all text */
+    font-family: Arial, sans-serif; /* Font styling */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin-top: 20px; /* Space above the footer */
+}
+
+.footer h1 {
+    font-size: 18px; /* Heading size */
+    margin: 0; /* Remove extra space */
+    font-weight: normal; /* Normal font weight for subtlety */
+}
+
+.footer p {
+    margin: 10px 0 0; /* Adjust spacing for links */
+    font-size: 14px; /* Text size for links */
+}
+
+.footer a {
+    color: #4caf50; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between links */
+    transition: color 0.3s; /* Smooth hover transition */
+    font-weight: bold; /* Bold links */
+}
+
+.footer a:hover {
+    color: #66bb6a; /* Hover color */
+}
+
+
+/* page not found css is here : */
+
+.pnf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh; /* Center vertically */
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.pnf-title {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ff4c4c; /* Eye-catching color for 404 */
+    margin: 0;
+}
+
+.pnf-subtitle {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.pnf-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.pnf-link {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.pnf-link:hover {
+    background-color: #45a049;
+}
+
+/* Contact Page Styling */
+.contact-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .contact-header {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  .contact-description {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .contact-item {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .contact-icon {
+    color: #007bff;
+  }
+  
+  .contact-text {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .contact-text a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .contact-image {
+    margin-top: 50px;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* CSS for the image */
+.contact-image {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: flex-start; /* Aligns the image at the top */
+    padding-top: 20px; /* Optional: adds space between the top and the image */
+  }
+  
+  .contact-image .image {
+    width: 80%; /* Adjusts the image size, change percentage as needed */
+    max-width: 600px; /* Ensures the image doesn't grow too large */
+    height: auto; /* Maintains the aspect ratio */
+  }
+  /* ==============================Register Page==================== */
+
+
+
+  
+  
